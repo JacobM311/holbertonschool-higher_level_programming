@@ -3,7 +3,7 @@
 
 if __name__ == "__main__":
     from sys import argv
-    l = len(argv)
+    l = len(argv - 1)
     if l == 1:
         print("{:d} argument:".format(l))
     elif l == 0:
@@ -11,4 +11,5 @@ if __name__ == "__main__":
     elif l > 1:
         print("{:d} arguments:".format(l))
     for i, args in enumerate(argv):
-        print("{:d}: {:s}".format(i, args))
+        if i > 0:
+            print("{:d}: {:s}".format(i, args))
