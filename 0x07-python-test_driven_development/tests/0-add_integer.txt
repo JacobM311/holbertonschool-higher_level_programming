@@ -29,9 +29,3 @@ Checking negative with positive:
 	 >>> add_integer(-6, 8)
 	 2
 
-Checking addition over multiple values:
-	 >>> [add_integer(i, i ** 2) for i in range(6)]
-	 [0, 2, 6, 12, 20, 30]
-
-
-
