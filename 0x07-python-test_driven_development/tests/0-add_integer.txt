@@ -1,5 +1,5 @@
-The ``0-add_integer`` module
-============================
+The 0-add_integer module
+========================
 
 Using add_integer.py
 -------------------
@@ -17,8 +17,7 @@ Checking for function docstring:
          >>> len(f) > 1
          True
 
-Checking no args:
-	 >>> add_integer()
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: add_integer() missing 2 required positional arguments: 'a' and 'b'
+unique test 2:
+    >>> add_integer("", "")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
