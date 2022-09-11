@@ -21,8 +21,3 @@ Checking regular addition:
 	 >>> add_integer(2, 3)
 	 5
 
-Checking positive with negative:
-	 >>> add_integer(2, -4)
-	 -2
-
-
