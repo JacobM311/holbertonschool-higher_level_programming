@@ -17,6 +17,8 @@ Checking for function docstring:
          >>> len(f) > 1
          True
 
-Checking both float:
-	 >>> add_integer(2.45, 3.1)
-	 5
+Checking no args:
+	 >>> add_integer()
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: add_integer() missing 2 required positional arguments: 'a' and 'b'
