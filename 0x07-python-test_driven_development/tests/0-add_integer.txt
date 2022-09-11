@@ -73,8 +73,3 @@ Checking number with non-number:
 	 ...
 	 TypeError: b must be an integer
 
-Checking non-number with non-number:
-	 >>> add_integer((2,), {"key": "value"})
-         Traceback (most recent call last):
-         ...
-         TypeError: a must be an integer
