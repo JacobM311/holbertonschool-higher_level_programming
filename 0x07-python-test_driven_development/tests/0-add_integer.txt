@@ -17,33 +17,7 @@ Checking for function docstring:
          >>> len(f) > 1
          True
 
-test from main:
-    >>> add_integer(1,2)
-    3
-
-test from main:
-    >>> add_integer(100, -2)
-    98
-
-test from main:
-    >>> add_integer(2)
-    100
-
-test from main:
-    >>> add_integer(100.3, -2)
-    98
-
-test from main:
-    >>> add_integer(4, "School")
+unique test 1:
+    >>> add_integer(2, 3, 4)
     Traceback (most recent call last):
-    TypeError: b must be an integer
-
-test from main:
-    >>> add_integer(None)
-    Traceback (most recent call last):
-    TypeError: a must be an integer
-
-test from main:
-    >>> add_integer(none)
-    Traceback (most recent call last):
-    NameError: name 'none' is not defined
+    TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
