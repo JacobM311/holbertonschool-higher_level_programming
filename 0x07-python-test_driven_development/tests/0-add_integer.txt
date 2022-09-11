@@ -12,12 +12,6 @@ Checking for module docstring:
 	 >>> len(m) > 1
 	 True
 
-Checking for function docstring:
-	 >>> f = __import__("0-add_integer").add_integer.__doc__
-         >>> len(f) > 1
-         True
 
-unique test 1:
-    >>> add_integer(2, 3, 4)
-    Traceback (most recent call last):
-    TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+
+
