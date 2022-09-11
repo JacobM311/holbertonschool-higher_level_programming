@@ -85,8 +85,3 @@ Checking bool with number:
          ...
          TypeError: a must be an integer
 
-Checking number with bool:
-	 >>> add_integer(0, False)
-         Traceback (most recent call last):
-         ...
-         TypeError: b must be an integer
