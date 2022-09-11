@@ -12,6 +12,11 @@ Checking for module docstring:
 	 >>> len(m) > 1
 	 True
 
+Checking for function docstring:
+	 >>> f = __import__("0-add_integer").add_integer.__doc__
+         >>> len(f) > 1
+         True
 
-
-
+Checking both float:
+	 >>> add_integer(2.45, 3.1)
+	 5
