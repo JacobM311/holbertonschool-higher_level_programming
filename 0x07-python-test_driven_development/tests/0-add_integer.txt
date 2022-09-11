@@ -33,10 +33,5 @@ Checking addition over multiple values:
 	 >>> [add_integer(i, i ** 2) for i in range(6)]
 	 [0, 2, 6, 12, 20, 30]
 
-Checking float with int:
-	 >>> add_integer(2.1, 4)
-	 6
-
-
 
 
