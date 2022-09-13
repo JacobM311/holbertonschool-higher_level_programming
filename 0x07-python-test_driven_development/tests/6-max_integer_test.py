@@ -11,7 +11,7 @@ class TestMaxInteger(unittest.TestCase):
         v1 = [76, 13, 12]
         self.assertEqual(max_integer(v1), 76)
 
-    def second_test(self):
+    def first_test(self):
         "hello"
         v1 = [76]
         self.assertEqual(max_integer(v1), 76)
