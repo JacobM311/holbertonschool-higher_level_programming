@@ -10,4 +10,3 @@ class TestMaxInteger(unittest.TestCase):
         "hello"
         v1 = [76, 13, 12]
         self.assertEqual(max_integer(v1), 76)
-
