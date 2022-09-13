@@ -8,5 +8,5 @@ class TestMaxInteger(unittest.TestCase):
     "hello"
     def test_one_element(self):
         "Tests for only one number in the list"
-        v1 = [1]
-        self.assertEqual(max_integer(v1), 1)
+        v1 = [76]
+        self.assertEqual(max_integer(v1), 76)
