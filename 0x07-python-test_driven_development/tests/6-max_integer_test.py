@@ -10,3 +10,8 @@ class TestMaxInteger(unittest.TestCase):
         "hello"
         v1 = [76]
         self.assertEqual(max_integer(v1), 76)
+
+    def test_one_element(self):
+        "hello"
+        v1 = [76, 13, 15]
+        self.assertEqual(max_integer(v1), 76)
