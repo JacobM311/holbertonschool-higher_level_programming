@@ -23,23 +23,12 @@ Checking for no args:
 	 ...
 	 TypeError: text_indentation() missing 1 required positional argument: 'text'
 
-Checking for too many args:
-	 >>> text_indentation("yes", "no")
-	 Traceback (most recent call last):
-	 ...
-	 TypeError: text_indentation() takes 1 positional argument but 2 were given
-
 Checking for passing None:
 	 >>> text_indentation(None)
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: text must be a string
 
-Checking for passing int:
-	 >>> text_indentation(1)
-         Traceback (most recent call last):
-         ...
-         TypeError: text must be a string
 
 Checking for standalone special chars:
 	 >>> text_indentation(" . ? : ")
