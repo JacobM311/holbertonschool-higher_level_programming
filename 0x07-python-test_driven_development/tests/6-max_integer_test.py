@@ -6,7 +6,7 @@ max_integer = __import__('6-max_integer').max_integer
 
 class TestMaxInteger(unittest.TestCase):
     "hello"
-    def first_test(self):
-        """hello"""
-        v1 = [76]
-        self.assertTrue(max_integer(v1), 76)
+    def test_one_element(self):
+        """Tests for only one number in the list"""
+        o = [1]
+        self.assertEqual(max_integer(o), 1)
