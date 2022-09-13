@@ -44,8 +44,8 @@ Checking for passing int:
 Checking for standalone special chars:
 	 >>> text_indentation(" . ? : ")
 	 .
-	 
+	 <BLANKLINE>
 	 ?
-	 
+	 <BLANKLINE>
 	 :
-	 
+	 <BLANKLINE>
