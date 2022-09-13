@@ -40,3 +40,12 @@ Checking for passing int:
          Traceback (most recent call last):
          ...
          TypeError: text must be a string
+
+Checking for standalone special chars:
+	 >>> text_indentation(" . ? : ")
+	 .
+	 
+	 ?
+	 
+	 :
+	 
