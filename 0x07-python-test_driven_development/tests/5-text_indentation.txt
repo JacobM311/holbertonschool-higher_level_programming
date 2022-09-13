@@ -34,3 +34,9 @@ Checking for passing None:
 	 Traceback (most recent call last):
 	 ...
 	 TypeError: text must be a string
+
+Checking for passing int:
+	 >>> text_indentation(1)
+         Traceback (most recent call last):
+         ...
+         TypeError: text must be a string
