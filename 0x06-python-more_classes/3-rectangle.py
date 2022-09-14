@@ -60,4 +60,3 @@ class Rectangle:
     def __repr__(self):
         """create new instance based on representation"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-
