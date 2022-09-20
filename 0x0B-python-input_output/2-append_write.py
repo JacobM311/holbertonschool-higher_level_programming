@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-appends file and return characters
+appends file and return number of characters
 """
 
 
