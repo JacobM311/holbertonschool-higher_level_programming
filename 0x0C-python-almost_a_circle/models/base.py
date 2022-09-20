@@ -10,7 +10,7 @@ def __init__(self, id=None):
     "smelly"
 
     if id is None:
-        Base.__nd_objects += 1
+        Base.__nb_objects += 1
         self.id = Base.__nb_objects
     else:
         self.id = id
