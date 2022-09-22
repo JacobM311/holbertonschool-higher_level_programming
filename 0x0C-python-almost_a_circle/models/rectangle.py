@@ -8,9 +8,13 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """smelly"""
+    """
+    smelly
+    """
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Initializes the rectangle"""
+        """
+        Initializes the rectangle
+        """
         self.width = width
         self.height = height
         self.x = x
@@ -19,27 +23,37 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """getter of width"""
+        """
+        getter of width
+        """
         return self.__width
 
     @property
     def height(self):
-        """getter of height"""
+        """
+        getter of height
+        """
         return self.__height
 
     @property
     def x(self):
-        """getter of x"""
+        """
+        getter of x
+        """
         return self.__x
 
     @property
     def y(self):
-        """getter of y"""
+        """
+        getter of y
+        """
         return self.__y
 
     @width.setter
     def width(self, value):
-        """setter of width"""
+        """
+        setter of width
+        """
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -48,7 +62,9 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
-        """setter of height"""
+        """
+        setter of height
+        """
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -57,7 +73,9 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        """setter of x"""
+        """
+        setter of x
+        """
         if type(value) is not int:
             raise TypeError("x must be an integer")
         if value < 0:
@@ -66,7 +84,9 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
-        """setter of y"""
+        """
+        setter of y
+        """
         if type(value) is not int:
             raise TypeError("y must be an integer")
         if value < 0:
