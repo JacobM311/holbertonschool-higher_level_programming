@@ -102,7 +102,9 @@ class Rectangle(Base):
     def display(self):
         """display
         """
-        print(("#" * self.width + "\n") * self.height, end="")
+        print(("\n" * self.__y) +
+              "\n".join(((" " * self.__x) + ("#" * self.__width))
+                        for i in range(self.__height)))
 
     def __str__(self):
         """informal string representation of the rectangle"""
@@ -111,3 +113,7 @@ class Rectangle(Base):
                                                                  self.__y,
                                                                  self.__width,
                                                                  self.__height)
+
+    
+
+
