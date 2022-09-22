@@ -102,7 +102,7 @@ class Rectangle(Base):
     def display(self):
         """display
         """
-        for i in range(self.__width):
-            for j in range(self.__height):
+        for i in range(self.width):
+            for j in range(self.height):
                 print('#', end = '')
             print()
