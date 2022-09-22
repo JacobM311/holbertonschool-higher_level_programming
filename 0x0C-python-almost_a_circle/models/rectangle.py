@@ -108,4 +108,4 @@ class Rectangle(Base):
         """string representation
         """
         return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id, self.__x,\
--  self.__y, self.__width, self.__height)
+    self.__y, self.__width, self.__height)
