@@ -100,8 +100,7 @@ class Rectangle(Base):
         return self.__width * self.__height
 
     def display(self):
-        """display
-        """
+        """print rectangle"""
         print(("\n" * self.__y) +
               "\n".join(((" " * self.__x) + ("#" * self.__width))
                         for i in range(self.__height)))
@@ -113,7 +112,3 @@ class Rectangle(Base):
                                                                  self.__y,
                                                                  self.__width,
                                                                  self.__height)
-
-    
-
-
