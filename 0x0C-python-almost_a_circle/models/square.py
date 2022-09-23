@@ -13,3 +13,8 @@ class Square(Rectangle):
         """initialize the square"""
         super().__init__(size, size, x, y, id)
         self.size = size
+
+    def __str__(self):
+        """informal string representation of the square"""
+        return "[Square] ({:d}) {:d}/{:d} - {:d}".format(self.id, self.x,
+                                                         self.y, self.width)
