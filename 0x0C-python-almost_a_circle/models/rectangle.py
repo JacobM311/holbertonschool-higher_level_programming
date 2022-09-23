@@ -113,6 +113,8 @@ class Rectangle(Base):
                                                                  self.__width,
                                                                  self.__height)
     
+    
+        
     def update(self, *args):
         """updates multiple attributes"""
         if len(args):
