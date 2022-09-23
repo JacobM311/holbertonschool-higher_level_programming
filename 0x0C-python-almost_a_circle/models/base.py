@@ -2,8 +2,6 @@
 """
 base class
 """
-
-
 import json
 
 
@@ -24,6 +22,6 @@ class Base:
     @staticmethod
     def to_json_string(list_dictionaries):
         """returns json dictionary"""
-        If list_dictionaries is None:
+        if list_dictionaries is None:
             list_dictionaries = []
         return json.dumps(list_dictionaries)
