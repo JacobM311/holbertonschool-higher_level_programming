@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""This script grabs the username and password from user to print the table
-"""
+""" Script that list all states from the database hbtn_0e_0_usa"""
 import MySQLdb
-import sys
+from sys import argv
 
 def select_states():
     """ List all states from database hbtn_0e_0_usa """
