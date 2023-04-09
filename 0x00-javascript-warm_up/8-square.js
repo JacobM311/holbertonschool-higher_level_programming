@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 'script that prints a square';
 
 const process = require('process');
