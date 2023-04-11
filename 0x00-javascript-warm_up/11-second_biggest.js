@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 'returns second largest of an array'
 
 const process = require('process');
