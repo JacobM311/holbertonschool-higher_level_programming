@@ -1,9 +1,9 @@
 #!/usr/bin/node
-'returns second largest of an array'
+'returns second largest of an array';
 
 const process = require('process');
 
-function secondLargest(numbers) {
+function secondLargest (numbers) {
   let largest = Number.MIN_SAFE_INTEGER;
   let secondLargest = Number.MIN_SAFE_INTEGER;
 
