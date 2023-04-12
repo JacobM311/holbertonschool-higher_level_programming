@@ -1,3 +1,6 @@
+#!/usr/bin/node
+'rectangle class'
+
 class Rectangle {
   // nothing
 }
