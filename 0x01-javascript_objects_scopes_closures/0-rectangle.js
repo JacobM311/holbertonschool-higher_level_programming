@@ -1,5 +1,5 @@
 class Rectangle {
-    // nothing
-  }
-  
-  module.exports = Rectangle;
+  // nothing
+}
+
+module.exports = Rectangle;
